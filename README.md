@@ -25,5 +25,5 @@ Please report strictly packaging-related issues
 ```git
 git clone https://github.com/tpaau/chilen-git-src-pkgbuild
 cd chilen-git-src-pkgbuild
-sudo makepkg -si
+makepkg -si
 ```
