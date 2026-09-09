@@ -1,6 +1,6 @@
 # Maintainer: tpaau <tpaau-17db@tutamail.com>
 pkgname=chilen-git-src
-pkgver="assigned from the git commit"
+pkgver=git
 pkgrel=1
 pkgdesc="Fully offline, blazingly fast music player for your library"
 arch=(any)
