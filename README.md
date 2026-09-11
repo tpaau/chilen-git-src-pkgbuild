@@ -10,7 +10,7 @@ This repo contains the PKGBUILD file for building and installing the
 method as stated in [Chilen's README](https://github.com/tpaau/chilen#installation).
 
 The program installs as `chilen-git` so that it can be installed alongside a tagged release (which
-would install as just `chilen`) should one be released.
+would install as just `chilen`), should one be released.
 
 > [!CAUTION]
 > Chilen built from the `main` branch should only be used for development purposes or testing. I do
@@ -19,7 +19,7 @@ would install as just `chilen`) should one be released.
 
 Please report strictly packaging-related issues
 [here](https://github.com/tpaau/chilen-git-src-pkgbuild/issues/new), otherwise open an issue on the
-[Chilen repo](https://github.com/tpaau/chilen/issues/new?type=bug).
+[Chilen repo](https://github.com/tpaau/chilen/issues/new?template=bug_report.yml).
 
 ## Usage
 ```git
