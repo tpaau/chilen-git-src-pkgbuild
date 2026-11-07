@@ -20,7 +20,7 @@ pkgver() {
 build() {
 	cd "$srcdir/chilen"
 	# TODO: The git version can be considered a development build so the `dev-opts` feature is enabled
-	cargo build --release --features mpris --features dev-opts
+	cargo build --release --features mpris --features cjk-fonts --features dev-opts
 }
 
 package() {
