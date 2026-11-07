@@ -1,10 +1,6 @@
 # Chilen PKGBUILD
 > Fully offline, blazingly fast music player for your library
 
-> [!NOTE]
-> This is to be published on the AUR, but as of now account registration there is closed due to
-> [supply-chain attacks](https://archlinux.org/news/active-aur-malicious-packages-incident/).
-
 This repo contains the PKGBUILD file for building and installing the
 [Chilen](https://github.com/tpaau/chilen) music player on Arch Linux. It is an official installation
 method as stated in [Chilen's README](https://github.com/tpaau/chilen#installation).
@@ -22,8 +18,13 @@ Please report strictly packaging-related issues
 [Chilen repo](https://github.com/tpaau/chilen/issues/new?template=bug_report.yml).
 
 ## Usage
-```git
+```bash
 git clone https://github.com/tpaau/chilen-git-src-pkgbuild
 cd chilen-git-src-pkgbuild
 makepkg -si
+```
+
+Or install from the AUR with your preferred helper:
+```bash
+yay -Syu chilen-git
 ```
